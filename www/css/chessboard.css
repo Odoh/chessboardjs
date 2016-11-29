@@ -1,12 +1,25 @@
 /*!
- * chessboard.js $version$
+ * chessboard.js v0.3.0
  *
  * Copyright 2013 Chris Oakman
  * Released under the MIT license
  * https://github.com/oakmac/chessboardjs/blob/master/LICENSE
  *
- * Date: $date$
+ * Date: 10 Aug 2013
  */
+
+/* chessboard */
+.chessboard-main {
+  width: 400px;
+}
+
+.view-board {
+  float: left;
+}
+
+.view-chess-note {
+  float: right;
+}
 
 /* clearfix */
 .clearfix-7da63 {
@@ -16,7 +29,6 @@
 /* board */
 .board-b72b1 {
   border: 2px solid #404040;
-  -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
@@ -45,6 +57,20 @@
 .black-3c85d {
   background-color: #b58863;
   color: #f0d9b5;
+}
+
+.grey-white-square-873d3 {
+  background: #a9a9a9;
+}
+
+.grey-black-square-874ab {
+  background: #696969;
+}
+
+.grey-border-square-89248 {
+  -webkit-box-shadow: inset 0 0 3px 3px grey;
+  -moz-box-shadow: inset 0 0 3px 3px grey;
+  box-shadow: inset 0 0 3px 3px grey;
 }
 
 /* highlighted square */
